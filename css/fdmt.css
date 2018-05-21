@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Kazesawa-Light";
+  src: url("../ft/Kazesawa-Light.woff");
+}
+@font-face {
+  font-family: "Kazesawa-Regular";
+  src: url("../ft/Kazesawa-Regular.woff");
+}
+@font-face {
+  font-family: "Kazesawa-Bold";
+  src: url("../ft/Kazesawa-Bold.woff");
+}
+
+/** Reset some basic elements */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
+
+/** Basic styling */
+.light { font-family: 'Kazesawa-Light'; }
+.bold { font-family: 'Kazesawa-Bold'; }
+
+body { font: 400 16px/1.5 "Kazesawa-Regular", sans-serif; color: #eee; background-color: #3688C3; text-rendering: optimizeLegibility !important; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; animation: grad 30s ease 2s infinite; }
+@keyframes grad { 0% { background-color: #3688c3; }
+  26% { background-color: #3474B2; }
+  57% { background-color: #5d53b8; }
+  74% { background-color: #3B76B0; }
+  100% { background-color: #3688c3; } }
+  
+  
+/** Set `margin-bottom` to maintain vertical rhythm */
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
+
+
