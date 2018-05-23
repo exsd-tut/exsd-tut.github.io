@@ -15,6 +15,11 @@
 .regular { font-family: 'Kazesawa-Regular'; }
 .bold { font-family: 'Kazesawa-Bold'; }
 
+a:link { color: #ffff00; }
+a:visited { color: #ffff00; }
+
+.migi { text-align: right; }
+
 body { font: 400 16px/1.5 "Kazesawa-light", sans-serif; color: #eee; background-color: #3688C3; text-rendering: optimizeLegibility !important; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; animation: grad 30s ease 2s infinite; }
 @keyframes grad { 0% { background-color: #3688c3; }
   26% { background-color: #3474B2; }
